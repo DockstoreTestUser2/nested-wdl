@@ -1,5 +1,5 @@
 version 1.0
-#import "Dockstore.wdl" as fourth
+import "Dockstore.wdl" as fourth
 import "second-import.wdl" as second
 task hello2 {
   input {
