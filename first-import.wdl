@@ -1,11 +1,6 @@
-version 1.0
-import "Dockstore.wdl" as fourth
-import "second-import.wdl" as second
-
-task hello2 {
-  input {
-    String name
-  }
+import "Dockstore.wdl" as second
+task hello {
+  String name
 
   command {
     echo 'Hello ${name}!'
